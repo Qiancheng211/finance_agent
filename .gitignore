@@ -1,0 +1,39 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+app/.env
+app/.env.*
+!app/.env.example
+
+# Logs
+logs/
+*.log
+
+# Local runtime data
+resources/uploads/
+resources/mem0_home/
+*.sqlite
+*.db
+
+# Static export leftovers from previous frontend experiments
+app/static/_next/
+app/static/_not-found/
+app/static/404/
+app/static/*.txt
+app/models/
+
+# IDE
+.idea/
+.vscode/
