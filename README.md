@@ -148,12 +148,4 @@ DELETE /api/v1/finance/transactions/{transaction_id}
 - Access-code based identity is a demo mechanism. For production, add real authentication and user-level authorization.
 - Before public release, verify that transaction ownership filtering matches your database schema and demo requirements.
 
-## GitHub Safety Checklist
 
-Before pushing:
-
-- Do not commit `app/.env` or any root `.env`.
-- Do not commit real API keys, database URLs, phone numbers, ID numbers, bank card numbers or real bills.
-- Do not commit runtime uploads, logs, mem0 local cache, virtual environments or `__pycache__`.
-- Keep sample data anonymized and small.
-- Run `python -m compileall app` before publishing.
