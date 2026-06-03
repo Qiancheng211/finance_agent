@@ -1,0 +1,20 @@
+[project]
+name = "finance-agent"
+version = "0.1.0"
+description = "A LangChain-based personal finance agent for expense tracking."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.136.3",
+    "langchain>=1.3.1",
+    "langchain-openai>=1.2.2",
+    "mem0ai>=2.0.4",
+    "openai>=2.38.0",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.3",
+    "psycopg[binary]>=3.3.4",
+    "python-dotenv>=1.2.2",
+    "python-multipart>=0.0.29",
+    "sqlalchemy>=2.0.50",
+    "uvicorn>=0.48.0",
+]
